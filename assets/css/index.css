@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+html{
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+
+.box{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns:50% 50%;
+    border: 1px solid black;
+}
+
+.left{
+    padding: 20%;
+    display: grid;
+    grid-template-rows: 20% 50% 30%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.schedule{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+}
+
+button{
+    font-size: 20px;
+    align-self: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    background-color: hsl(0,100%, 68%);
+    color: white;
+}
+
+h2{
+    font-size: 24px;
+}
+h2 span{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 54px;
+    font-style: bold;
+}
+
+
+
+.right{
+    margin-left: 10%;
+    border-radius: 0px 0px 0px 50px;
+    height: 40%;
+    background-color:hsl(207, 33%, 95%);
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.right img{
+    width: 1250px;
+}
+
+nav{
+    width:80%;
+}
+
+.links{
+    margin: 10%;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links a {
+    color: hsl(230, 29%, 20%);
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(231, 7%, 65%);
+}
+
+
+
